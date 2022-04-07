@@ -1,0 +1,46 @@
+{
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "lib": [
+      "ES6"
+    ],
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "baseUrl": "./src/",
+    "paths": {
+      "@controllers/*": [
+        "app/controllers/*"
+      ],
+      "@main/*": [
+        "main/*"
+      ],
+      "@infra/*": [
+        "app/infra/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ]
+    }
+  }
+}

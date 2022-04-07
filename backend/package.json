@@ -1,0 +1,37 @@
+{
+  "name": "fullstackJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:serve": "ts-node-dev --inspect -r tsconfig-paths/register --respawn --ignore node_modules --no-notify src/main/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jm-Correia/fullstackJS.git"
+  },
+  "keywords": [
+    "vue 3",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "João Marcos Correia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jm-Correia/fullstackJS/issues"
+  },
+  "homepage": "https://github.com/Jm-Correia/fullstackJS#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/uuid": "^8.3.4",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}
